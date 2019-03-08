@@ -1,0 +1,81 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+
+
+    <!--    // slide-->
+    <!--    <script type="text/javascript" src="./lib/jquery-3.3.1.min.js"></script>-->
+
+    <link href='https://fonts.googleapis.com/css?family=Allura' rel='stylesheet'>
+    <link href='https://fonts.googleapis.com/css?family=Autour One' rel='stylesheet'>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+    <link rel="stylesheet" href="../style.css">
+    <title>Web page</title>
+</head>
+
+<body>
+    <div class="container-fluid">
+        <header>
+
+            <h3 class="text-center">
+                <!--           name-->
+                <div class="name">
+                    <p>Alina Šorienė</p>
+                </div>
+                <!--                occupation-->
+                <div class="occupation">
+                    <p>Makeup and hair stylist</p>
+                </div>
+            </h3>
+            <!--            line-->
+            <hr width=80% align=center>
+        </header>
+        <!--        buttons-->
+        <nav align=center>
+            <button onclick="goToApieMane2()" type="button" class="btn btn-outline-secondary">Apie mane</button>
+            <button onclick="goToManoDarbai2()" type="button" class="btn btn-outline-secondary">Mano darbai</button>
+            <button onclick="goToPaslauguKainos2()" type="button" class="btn btn-outline-secondary">Paslaugų kainos</button>
+            <button onclick="goToRegistracija2()" type="button" class="btn btn-outline-secondary">Registracija</button>
+        </nav>
+        <main>
+            <!--           backround image-->
+            <div class="background-imageP">
+                <!--               form-->
+                <form name="myForm" action="" onsubmit="return validateForm()" method="post">
+                    <!--                   form for email-->
+                    <div class="form-group col-md-6 offset-md-1">
+                        <label for="forEmail">Elektroninis adresas</label>
+                        <input type="email" class="form-control" id="forEmail" name="femail" placeholder="email@example.com">
+                    </div>
+                    <!--                    form for text-->
+                    <div class="form-group col-md-6 offset-md-1">
+                        <label for="forText">Tekstas</label>
+                        <textarea class="form-control" id="forText" rows="3" input type="text" name="ftext"></textarea>
+                    </div>
+                    <!--                    Submit button-->
+                    <button type="submit" input type="submit" value="Išsiųsti" class="btn btn-secondary offset-md-6">Išsiųsti</button>
+                </form>
+            </div>
+            <footer>
+            </footer>
+
+        </main>
+
+    </div>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
+    <script src="../script.js"></script>
+</body>
+
+</html>
